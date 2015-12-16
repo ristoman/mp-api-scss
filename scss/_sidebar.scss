@@ -1,0 +1,47 @@
+div.sphinxsidebar{
+	color: white;
+  width: 25%;
+	h3, h4{
+  		background-color:transparent;
+  		text-shadow:none;
+  		padding-left:20px;
+  		&, a{color: $color-mp-blue;}
+  		font-size: 1rem;
+		line-height: 1rem;
+  	}
+  	p{padding: 0px 20px; margin-top: 0;}
+  	a{
+  		color:white;
+  		@include title-font;
+  	}
+  	ul{
+  		@include title-font;
+  	}
+  	li{
+  		color: $color-mp-white;
+  		font-size: 0.8rem;
+		line-height: 1.4rem;
+  	}
+  	#searchbox {
+  		input[type="text"]{
+			padding: 5px 0;
+			background: rgba(255,254,255,0.15);
+			border: 1px solid #4A90E2;
+			border-radius: 3px;
+			color: white;
+			padding-left: 7px;
+			width: 50%;
+		}
+		input[type="submit"]{
+			border-radius: 4px;
+    		padding: 5px;
+    		color: $color-sidebar-bg;
+    		width: 30px;
+    		background-color: $color-mp-blue;
+    		border: none;
+		}
+	}
+	.searchtip{
+		padding-top:0.6rem;
+	}
+}

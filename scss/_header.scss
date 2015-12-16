@@ -1,0 +1,21 @@
+header{
+	@include linearGradient($color-mp-blue, $color-mp-blue-mid);
+	box-shadow: inset 0px -1px 12px 0px rgba(0,0,0,0.20);
+	padding: 24px 0px;
+	height: 76px;
+	text-align: left;
+	h1{
+		@include title-font;
+		color:white;
+		text-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+		width: 50%;
+		float: left;
+		padding-left: 0.6em;
+	}
+	p.logo{
+		float: left;
+		width: 25%;
+		margin:0;
+		text-align: center;
+	}
+}

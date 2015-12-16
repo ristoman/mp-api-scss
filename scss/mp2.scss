@@ -1,0 +1,55 @@
+@import "base";
+@import "header";
+@import "sidebar";
+
+pre{font-size:0.8rem;}
+.optional{font-size:1rem;}
+
+#content:not(.section){
+	width:75%;
+}
+
+div.body, div.sphinxsidebar{
+	h1, h2, h3, h4, h5, h6{
+		@include title-font;
+		&, a{color: $color-mp-blue}
+		margin-left:0
+	}
+}
+
+div.bodywrapper{
+	margin:0 0 0 17em;
+}
+
+div.document{
+	background-color: $color-sidebar-bg;
+}
+
+div.related{
+	display: none;
+}
+
+div.body{
+	h1, h3, h4, h5, h6{
+		background-color:transparent;
+		border-bottom:1px solid $color-mp-white;
+	}
+	h2{
+		background-color: $color-mp-blue-light;
+		border-left: 8px solid $color-mp-blue;
+		padding-left:1rem;
+	}
+}
+
+table.docutils{
+	td, th{
+		padding-top:8px;
+		padding-bottom:8px;
+	}
+}
+
+.optional{color: $color-mp-blue}
+
+.params-list{
+	tr{border-bottom:1px solid $color-mp-white;}
+}

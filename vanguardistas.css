@@ -1,0 +1,202 @@
+body  { font-family: Helvetica, Arial, Sans-serif }
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 { font-family: Helvetica, Arial, sans-serif; color: #0060b6; text-shadow: none }
+div.body h1 { background: transparent; border-bottom: 2px solid #666; }
+div.body h4, div.body h5, div.body h6 { background: #efefef }
+div.body h2 { background: transparent; border-bottom: 2px solid #aaa; }
+div.body h3 { background: transparent; border-bottom: 1px solid #ccc; }
+div.footer  { background: #333 }
+div.related { background-color: #0060b6 }
+div.related a { color: #fff }
+.highlight .gp { color: #00c6ff }
+.highlight .s { color: #55aa00 }
+
+a, a:hover { color: #0060b6; }
+div.body dd { font-family: Georgia, serif; font-style: italic; color: #666 }
+
+div.sphinxsidebar ul { margin: 10px }
+
+div.beta-warning {
+	width: 90%;
+	border: 5px solid red;
+	padding: 8px;
+	font-weight: bold;
+	margin: 10px;
+	text-align: center;
+}
+div.body h3.section-subtitle {
+	background-color: white;
+	font-size: 100%;
+	margin: 0px;
+}
+
+div.left.container {
+	float: left;
+}
+div.right.container {
+	float: right;
+}
+div.breaker {
+	clear: both;
+}
+
+div.figure img {
+	border: 1px solid #3C3C3C;
+}
+div.figure p.caption {
+	margin: 2px 0px;
+}
+
+.required {
+	color: red;
+	font-size: 1em;
+}
+.optional {
+	color: darkgray;
+	font-size: 1em;
+}
+
+div.sidebar { width: 30% }
+
+div.two-columns div.section {
+	width: 65%;
+	padding-left: 10px;
+}
+div.one-column div.section {
+	padding-left: 10px;
+}
+div.two-columns div.warning {
+	width: 65%;
+}
+div.two-columns div.note {
+	width: 65%;
+}
+div.full_width {
+	width: 100%;
+}
+p.group_header {
+	background-color: #D6D6D6;
+	padding-left: 5px;
+	color: #3C3C3C;
+	line-height: 1em;
+}
+table.params-list {
+	width: 100%;
+}
+table.params-list th.field-name {
+	width: 180px;
+}
+table.params-list tr:first-child  {
+	border-top: 1px solid #C3C3C3;
+}
+table.params-list > tbody > tr.field {
+	border-bottom: 1px solid #C3C3C3;
+}
+table.params-list > tbody > tr > th,
+table.params-list > tbody > tr > td {
+	padding-top: 10px;
+}
+table.params-list > tbody > tr > td.field-body > p {
+	padding-bottom: 5px;
+}
+table.params-list > tbody > tr > td.field-body th {
+	padding-bottom: 5px;
+	width: 150px;
+}
+table.params-list > tbody > tr > td.field-body td {
+	padding-bottom: 5px;
+}
+table.params-list > tbody > tr > td.field-body > div.note{
+	width: 100%;
+}
+table.docutils {
+	width: 100%;
+}
+table.docutils.field-list {
+	width: 100%;
+}
+
+div.cslist > table.cslist {
+	width: auto;
+	margin-left: 20px;
+}
+table.cslist tr.field {
+	border:none;
+}
+
+table.docutils col.rst-resource-method {
+	min-width: 75px;
+}
+table.docutils col.rst-resource-name {
+	min-width: 250px;
+}
+table.docutils col.rst-resource-desc {
+	min-width: 400px;
+}
+#metro-publisher-facets ul,
+#metro-publisher-facets ul li {
+	vertical-align: top;
+}
+#metro-publisher-facets ul.ul-toggle p {
+	margin: 2px;
+}
+li.branch {
+	list-style-image: url(../_static/arrow_down.png);
+	cursor: pointer;
+	padding: 0;
+}
+li.leaf {
+	list-style-image: url(../_static/arrow_right.png);
+	cursor: default;
+	padding: 0;
+}
+#metro-publisher-facets ul li th.field-name {
+	width: 100px;
+}
+
+div.conditional-required {
+	margin-bottom: 10px;
+	margin-top: 5px;
+	padding: 3px 7px;
+}
+div.conditional-required > p {
+	display: inline;
+}
+p.conditional-required-title {
+	display: inline;
+	font-weight: bold;
+}
+p.conditional-required-title:after {
+    content: ":";
+}
+
+div.attention {
+    background-color: #FFE4E4;
+    border: 1px solid #FF6666;
+    display: block;
+}
+tr.attention {
+    background-color: #FFE4E4;
+    border: 1px solid #FF6666;
+}
+
+div.added-warning {
+    background-color: #FFFFEE;
+    border: 1px solid #DDDDBB;
+    display: table-cell;
+}
+
+span p.deprecation_warning {
+    padding: 0px 7px;
+    background-color: #FFE4E4;
+    border: 1px solid #FF6666;
+}
+
+div > p.deprecation_warning {
+	/* override border and padding for warnings inside field lists */
+	padding: 0;
+	border: 0;
+}
+
+.strike {
+    text-decoration: line-through;
+}
